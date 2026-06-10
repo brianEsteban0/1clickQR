@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Generador de QR",
+  "version": "1.0",
+  "description": "Genera un código QR con el enlace de la pestaña actual.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "qr_code_24dp.png",
+    "48": "qr_code_2.png",
+    "128": "qr_code_2_60dp.png"
+  },
+  "permissions": ["activeTab"]
+}

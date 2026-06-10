@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <style>
+            :root {
+                --bg-color: #ffffff;
+                --text-color: #333333;
+                --qr-bg: #f8f9fa;
+                --qr-border: #e1e4e8;
+                --shadow-color: rgba(0, 0, 0, 0.15);
+            }
+
+            @media (prefers-color-scheme: dark) {
+                :root {
+                    --bg-color: #202124;
+                    --text-color: #e8eaed;
+                    --qr-bg: #ffffff;
+                    --qr-border: #5f6368;
+                    --shadow-color: rgba(0, 0, 0, 0.5);
+                }
+            }
+
+            body {
+                width: 280px;
+                padding: 0;
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                background-color: var(--bg-color);
+                border-radius: 8px;
+                box-shadow: 0 4px 12px var(--shadow-color);
+                overflow: hidden;
+                margin: 0;
+            }
+            .container {
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            header {
+                margin-bottom: 5px;
+            }
+            header h3 {
+                margin: 0;
+                color: var(--text-color);
+                font-size: 20px;
+                font-weight: 600;
+            }
+            #qr-container {
+                width: 170px;
+                height: 170px;
+                margin-top: 15px;
+                display: none;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                border-radius: 12px;
+                background-color: var(--qr-bg);
+                border: 1px solid var(--qr-border);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+            }
+            #qr-container div {
+                display: flex;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h3>Código QR</h3>
+            </header>
+
+            <div id="qr-container">
+                <div id="qr-code"></div>
+            </div>
+        </div>
+        <script src="qrcode.min.js"></script>
+        <script src="popup.js"></script>
+    </body>
+</html>
