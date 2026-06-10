@@ -6,10 +6,10 @@ Una extensión de navegador minimalista, rápida y 100% enfocada en la privacida
 
 A diferencia de otras extensiones en la tienda que están repletas de anuncios o rastrean tu navegación, este proyecto fue construido con tres pilares en mente:
 
-* ** Zero-Click (Instantáneo):** No hay botones extra. Haces clic en el ícono de la extensión y el código QR de la página en la que estás aparece inmediatamente.
-* ** 100% Privado y Offline:** No utiliza APIs externas ni envía tus datos a ningún servidor. La generación del QR se realiza completamente de forma local en tu computadora utilizando matemáticas.
-* ** Soporte Nativo para Modo Oscuro:** La interfaz se adapta automáticamente al tema de tu sistema operativo o navegador gracias a las variables CSS y `prefers-color-scheme`.
-* ** Ultra Ligera:** Sin analíticas, sin rastreadores y construida con JavaScript puro y Manifest V3.
+* **Zero-Click (Instantáneo):** No hay botones extra. Haces clic en el ícono de la extensión y el código QR de la página en la que estás aparece inmediatamente.
+* **100% Privado y Offline:** No utiliza APIs externas ni envía tus datos a ningún servidor. La generación del QR se realiza completamente de forma local en tu computadora utilizando matemáticas.
+* **Soporte Nativo para Modo Oscuro:** La interfaz se adapta automáticamente al tema de tu sistema operativo o navegador gracias a las variables CSS y `prefers-color-scheme`.
+* **Ultra Ligera:** Sin analíticas, sin rastreadores y construida con JavaScript puro y Manifest V3.
 
 ## 🛠️ Cómo Funciona
 
